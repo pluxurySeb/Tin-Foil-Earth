@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace Name
 {
-public class KeyBoardInput : MonoBehaviour
+public class KeyboardInput : MonoBehaviour
 {
     // Update is called once per frame
     void Update()

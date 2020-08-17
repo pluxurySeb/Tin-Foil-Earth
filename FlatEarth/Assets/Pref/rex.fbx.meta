@@ -21,12 +21,67 @@ ModelImporter:
   - first:
       74: 6425029243566137239
     second: Rex|Run
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: ddfd2af63bf1a1d46b4d3521e049620b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 3d80d55b8aea272418f1393cf020df5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: b8059fe5863a84d4db64ccf6c2d2d317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 72aba78442901bb488b6b9c062b53440, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 218c0a7e9cc4a1541bec9416d076e0b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 4cbf201457822c24eae18d764433c151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 814e2d124b494464491ff59851b733b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: b0ba1b536118c124e8d48131fd89da69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 1775c75746c393144a7d7e6318a2d780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: bcec04c708dfd97498d02feb915a98a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: a08e7d25e5717b24e845fc8b1b923285, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -36,7 +91,17 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Idle' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Ass ^^' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Rex|Idle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ass ^^' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'Rex|Run' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Bacc' has translation animation
+      that will be discarded.\n\t'Ass ^^' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -48,14 +113,188 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action
+      takeName: Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Action
+      takeName: Rex|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Idle
+      takeName: Rex|Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Idle.001
+      takeName: Rex|Idle.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Run
+      takeName: Rex|Run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
+    useSRGBMaterialColor: 0
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -90,8 +329,352 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Rex
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bacc
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LSh
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RSh
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LPalm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RPalm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LPalm.001
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RPalm.001
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: rex(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane.001
+      parentName: rex(Clone)
+      position: {x: 0.0000000018341078, y: 1.1166358, z: -0.018975839}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Rex
+      parentName: rex(Clone)
+      position: {x: -2.82119e-10, y: 0.734444, z: 0.056734998}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bacc
+      parentName: Rex
+      position: {x: -0, y: 0.0013577443, z: 0.00021825134}
+      rotation: {x: 0.74431545, y: -0.00000007961134, z: -0.00000008872932, w: 0.66782826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ass ^^
+      parentName: Bacc
+      position: {x: 8.6469984e-11, y: -0.0010004294, z: 0.0003626814}
+      rotation: {x: -0.17301993, y: -2.131628e-14, z: 0.000000041251166, w: 0.9849183}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: LHip
+      parentName: Ass ^^
+      position: {x: -0.000832822, y: -2.2351741e-10, z: 1.22957105e-11}
+      rotation: {x: 0.99561214, y: -0.013778308, z: -0.017549414, w: -0.09087753}
+      scale: {x: 1, y: 1.0000012, z: 1.0000061}
+    - name: LLeg
+      parentName: LHip
+      position: {x: -1.0244548e-10, y: 0.0029712159, z: 5.122274e-11}
+      rotation: {x: 0.045694903, y: 0.0041523906, z: -0.0053224135, w: 0.9989327}
+      scale: {x: 0.99999976, y: 1.0000073, z: 1.0000088}
+    - name: LFoot
+      parentName: LLeg
+      position: {x: 2.0954757e-11, y: 0.0029672747, z: 1.16415315e-11}
+      rotation: {x: -0.66929287, y: 0.05544899, z: 0.073965736, w: 0.7372257}
+      scale: {x: 0.9999994, y: 1.0000032, z: 1.0000018}
+    - name: LFoot_end
+      parentName: LFoot
+      position: {x: -0, y: 0.0019358512, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHip
+      parentName: Ass ^^
+      position: {x: 0.00084947835, y: -1.490116e-10, z: -3.7016945e-10}
+      rotation: {x: 0.9953681, y: 0.01900079, z: 0.024200983, w: -0.091080524}
+      scale: {x: 0.9999998, y: 1.0000039, z: 1.0000027}
+    - name: RLeg
+      parentName: RHip
+      position: {x: 4.1909514e-11, y: 0.0029724743, z: -6.0535965e-11}
+      rotation: {x: 0.045279253, y: -0.015743991, z: 0.016787637, w: 0.9987092}
+      scale: {x: 1.0000013, y: 0.99999905, z: 1.0000014}
+    - name: RFoot
+      parentName: RLeg
+      position: {x: 2.2118911e-11, y: 0.0029833587, z: 2.4447217e-11}
+      rotation: {x: -0.6696014, y: -0.05541596, z: -0.06733443, w: 0.73758334}
+      scale: {x: 0.99999964, y: 1.0000037, z: 1.0000046}
+    - name: RFoot_end
+      parentName: RFoot
+      position: {x: -0, y: 0.0019365068, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Bacc
+      position: {x: -1.1975668e-10, y: 0.0033238595, z: -0.0005022959}
+      rotation: {x: -0.061465055, y: -2.842171e-14, z: 0.000000014654397, w: 0.9981093}
+      scale: {x: 1, y: 0.9999986, z: 0.9999988}
+    - name: Head
+      parentName: Neck
+      position: {x: 1.9984014e-17, y: 0.0018190803, z: 8.381903e-11}
+      rotation: {x: -0.02264427, y: 6.965185e-14, z: 0.0000000053988334, w: 0.99974364}
+      scale: {x: 1, y: 0.9999997, z: 0.9999998}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.0044891112, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RSh
+      parentName: Bacc
+      position: {x: 0.00055632245, y: 0.0029022824, z: -0.00006133428}
+      rotation: {x: 0.5503483, y: 0.5293605, z: 0.4720748, w: -0.4404994}
+      scale: {x: 0.99999994, y: 1.0000013, z: 1.0000024}
+    - name: RArm
+      parentName: RSh
+      position: {x: 2.7939677e-11, y: 0.0013229176, z: -5.122274e-10}
+      rotation: {x: -0.015075639, y: -0.070124924, z: 0.006640792, w: 0.9974022}
+      scale: {x: 1.0000032, y: 1.0000013, z: 1.0000015}
+    - name: RPalm
+      parentName: RArm
+      position: {x: 1.0477379e-10, y: 0.0020367622, z: 1.4901161e-10}
+      rotation: {x: 0.0040474413, y: 0.08362659, z: -0.004069217, w: 0.99648064}
+      scale: {x: 1.0000039, y: 1.0000055, z: 1.0000045}
+    - name: RPalm.001
+      parentName: RPalm
+      position: {x: 1.4901161e-10, y: 0.0023921605, z: -1.3969838e-11}
+      rotation: {x: 0.06524492, y: -0.0019146127, z: -0.10118845, w: 0.9927237}
+      scale: {x: 1.0000011, y: 1.0000021, z: 1.0000012}
+    - name: RPalm.001_end
+      parentName: RPalm.001
+      position: {x: -0, y: 0.0016075125, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LSh
+      parentName: Bacc
+      position: {x: -0.00053691014, y: 0.0029022824, z: -0.00006133402}
+      rotation: {x: 0.5463357, y: -0.5303881, z: -0.47126833, w: -0.4450977}
+      scale: {x: 1.0000018, y: 1, z: 1.0000011}
+    - name: LArm
+      parentName: LSh
+      position: {x: 1.11758706e-10, y: 0.0013597956, z: 3.3993272e-10}
+      rotation: {x: -0.019433467, y: 0.07912975, z: -0.0071248403, w: 0.99664944}
+      scale: {x: 1.0000008, y: 1.0000045, z: 1.000004}
+    - name: LPalm
+      parentName: LArm
+      position: {x: -5.5297277e-11, y: 0.0018931705, z: -1.8626451e-11}
+      rotation: {x: 0.0027280597, y: -0.09044475, z: 0.0041213296, w: 0.99588925}
+      scale: {x: 1.000002, y: 1.0000029, z: 1.0000012}
+    - name: LPalm.001
+      parentName: LPalm
+      position: {x: -2.2351741e-10, y: 0.0025081686, z: 0}
+      rotation: {x: -0.06084963, y: -0.001632653, z: -0.10137168, w: -0.99298465}
+      scale: {x: 1.0000038, y: 1.0000035, z: 1.0000042}
+    - name: LPalm.001_end
+      parentName: LPalm.001
+      position: {x: -0, y: 0.0016071069, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck.001
+      parentName: Bacc
+      position: {x: -1.1975668e-10, y: 0.0033238595, z: -0.0005022959}
+      rotation: {x: -0.6884589, y: -7.1054274e-15, z: 0.00000016414143, w: 0.72527534}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: Neck.003
+      parentName: Neck.001
+      position: {x: 8.881784e-18, y: 0.0013142878, z: 3.7252902e-11}
+      rotation: {x: -0.038310558, y: 3.9786618e-14, z: 0.000000009133947, w: 0.9992659}
+      scale: {x: 1, y: 1.0000036, z: 1.0000036}
+    - name: Neck.002
+      parentName: Neck.003
+      position: {x: -1.3322676e-16, y: 0.0025105337, z: 1.07102105e-10}
+      rotation: {x: -0.058695044, y: 1.3663019e-14, z: 0.000000013993994, w: 0.99827594}
+      scale: {x: 1, y: 1.0000018, z: 1.0000018}
+    - name: Neck.002_end
+      parentName: Neck.002
+      position: {x: -0, y: 0.0048274985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane.002
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.003
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.006
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.007
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.008
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.009
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.014
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.017
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.018
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.019
+      parentName: rex(Clone)
+      position: {x: -0.000000006903415, y: 0.87168676, z: -0.056471594}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5

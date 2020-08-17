@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4640471746997363841}
-  - component: {fileID: 2173286081657339772}
+  - component: {fileID: 5022590217024898608}
+  - component: {fileID: 6559856609306709581}
+  - component: {fileID: 7535859069747038023}
   m_Layer: 0
   m_Name: RexPlayer
   m_TagString: Untagged
@@ -32,7 +34,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2173286081657339772
+--- !u!136 &5022590217024898608
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640471746997363840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.28
+  m_Height: 1.7887225
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8755777, z: 0}
+--- !u!114 &6559856609306709581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4640471746997363840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9690d9e7bdd0ac34ebd3f3613ccbb1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {x: 0, y: 0, z: 0}
+  Speed: 0
+  jumpForce: 2
+  isGrounded: 0
+--- !u!114 &7535859069747038023
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,6 +143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rex
       objectReference: {fileID: 0}
+    - target: {fileID: 8733912277381580726, guid: 164f5dc746a2869499f0c96da00c944a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1775c75746c393144a7d7e6318a2d780, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 164f5dc746a2869499f0c96da00c944a, type: 3}
 --- !u!4 &5182795493530885063 stripped

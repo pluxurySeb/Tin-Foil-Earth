@@ -6,8 +6,9 @@ namespace Name
 {
     public class RexMove : MonoBehaviour
 {
-     public Vector3 jump;
-    public float jumpForce = 20.0f;
+    public Vector3 jump;
+    public float Speed;
+    public float jumpForce = 2.0f;
 
     public bool isGrounded;
     Rigidbody rb;
@@ -19,7 +20,7 @@ namespace Name
     void OnCollisionStay(){
         isGrounded = true;
     }
-    public float Speed;
+
     void Update()
     {
          if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
